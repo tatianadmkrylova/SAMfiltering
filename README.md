@@ -24,10 +24,10 @@ python3 samfiltering.py input.sam
 
 and contains the following files:
 
-*_unfiltered_reads.fasta	           Reads with MAPQ < 30
-*_mapped_reads.fasta	                   Mapped reads (FLAG-based)
-*_unmapped_reads.fasta	           Unmapped reads (FLAG-based)
-*_unmapped_cigar_reads.fasta	   Reads with inconsistent CIGAR
+*_unfiltered_reads.fasta	           Reads with MAPQ < 30  
+*_mapped_reads.fasta	                   Mapped reads (FLAG-based)  
+*_unmapped_reads.fasta	           Unmapped reads (FLAG-based)  
+*_unmapped_cigar_reads.fasta	   Reads with inconsistent CIGAR  
 
 
 ## Example output:
@@ -80,7 +80,7 @@ More details in the LICENSE file.
 
 ## Author
 
-Tatiana Krylova
-University of Montpellier (Université de Montpellier), Montpellier, France, Bioinformatics department 
-tatiana.krylova@etu.umontpellier.fr
+Tatiana Krylova  
+University of Montpellier (Université de Montpellier), Montpellier, France, Bioinformatics department   
+tatiana.krylova@etu.umontpellier.fr  
 
