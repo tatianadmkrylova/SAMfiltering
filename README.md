@@ -1,4 +1,4 @@
-SAMfiltering is a code writing in Python to analyse input SAM file for detecting unmapped reads and statistics of FLAGs and CIGAR. User can find all files containing mapped/unmapped/filtered/unfiltered reads in FASTA format in the directory "output" which has the same name like an input file without an extention .sam.
+SAMfiltering is a Python script designed to analyze input SAM files. Its primary functions include detecting unmapped reads and generating comprehensive statistics on alignment data (specifically FLAGs and CIGAR strings). All output files, including mapped, unmapped, filtered, and unfiltered reads in FASTA format, are saved within a dedicated "output" directory. This directory is named after the input file (excluding the .sam extension).
 
 ##  Requirements
 
@@ -72,23 +72,7 @@ MIT License
 
 Copyright (c) 2025 <Tatiana Krylova>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+More details in the LICENSE file.
 
 ## Author
 
