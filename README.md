@@ -1,3 +1,7 @@
+# SAMfiltering
+
+**Version 1.0.0**
+
 SAMfiltering is a Python script designed to analyze input SAM files. Its primary functions include detecting unmapped reads and generating comprehensive statistics on alignment data (specifically FLAGs and CIGAR strings). All output files, including mapped, unmapped, filtered, and unfiltered reads in FASTA format, are saved within a dedicated "output" directory. This directory is named after the input file (excluding the .sam extension).
 
 ##  Requirements
